@@ -1,0 +1,25 @@
+{
+	"name": "markup-practice",
+	"version": "1.0.0",
+	"description": "",
+	"main": "gulpfile.js",
+	"devDependencies": {
+		"browser-sync": "^2.28.3",
+		"connect-ssi": "^1.1.1",
+		"gulp": "^4.0.2",
+		"gulp-sourcemaps": "^3.0.0"
+	},
+	"scripts": {
+		"dev": "gulp",
+		"lintcss": "stylelint **/*.{css,scss,sass}",
+		"lintcss:fix": "stylelint --fix **/*.{css,scss,sass}"
+	},
+	"keywords": [],
+	"author": "yamamotonaoyuki",
+	"license": "UNLICENSED",
+	"private": true,
+	"volta": {
+		"node": "18.14.2",
+		"yarn": "1.22.19"
+	}
+}
