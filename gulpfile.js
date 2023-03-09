@@ -10,10 +10,11 @@ gulp.task("default", function () {
 		},
 		middleware: [
 			connectSSI({
-				baseDir: "./",
-				ext: ".html",
+				baseDir: "./src",
 			}),
 		],
-		server: "./",
+		server: {
+			baseDir: "./src",
+		},
 	});
 });
